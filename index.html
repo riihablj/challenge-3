@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 3</title>
+    <!-- CSS normalizer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/base.min.css" />
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <nav class="containers">
+        <a href="/">SpaceX Dashboard</a>
+    </nav>
+    <div class="containers pad-top header-container">
+        <div class="header-container-text">
+            <h1 class="welcome-title">
+                Welcome to Earth 
+            </h1>
+            <p class="welcome-text">
+                The city Amsterdam in the Netherlands will be your destination
+            </p>
+            <p class="welcome-text">
+                Rembrandtpark has been chosen as the most ideal landing site.
+            </p>
+        </div>
+        <div class="header-container-earth">
+            <div class="earth"></div>
+        </div>
+    </div>
+    <div class="containers pad-top">
+        <h2 class="container-title">Popular flight routes from Schiphol Airport</h2>
+        <div id="daily-routes" class="container-grid">
+        </div>
+    </div>
+    <div class="containers pad-top">
+        <h2 class="container-title">Upcoming train departures from Amsterdam Central</h2>
+        <div id="departures" class="container-grid">
+            <!-- <div class="card-container">
+              <h5 class="card-title">AMS -> Sittard</h5>
+              <p class="card-detail">
+                train name: NS 3965
+              </p>
+              <p class="card-detail">
+                departure track: 4b
+              </p>
+              <p class="card-detail">
+                departure time: 2022-5-08
+              </p>
+            </div> -->
+        </div>
+    </div>
+    <footer>
+          © 2022 Copyright:
+          <a href="https://www.spacex.com/">Space X</a>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
